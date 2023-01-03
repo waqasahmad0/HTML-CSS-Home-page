@@ -1,0 +1,80 @@
+*{
+    font-family: Comic Sans MS
+
+    ;
+}
+p{
+    color: blanchedalmond;
+}
+nav span{
+    font-size: xx-large;
+}
+nav{
+    margin: 30px;
+}
+nav ul{
+    display: flex;
+    float: right;
+}
+nav a{
+    text-decoration: none;
+}
+nav li{
+    list-style-type: none;
+    margin-left: 10px;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+}nav li:hover{
+    background-color: tomato;
+}
+.main-items{
+    width: 70%;
+}
+.heading{
+    font-size: 36px;
+    width: 40%;
+    font-weight: bolder;
+}
+.text{
+    width: 60%;
+}
+.main-text{
+    padding-top: 10px;
+    display: flex;
+}
+.main-contanier{
+    display: flex;
+}
+.side-img{
+    background-color: black;
+    width: 29%;
+    margin-left: 20px;
+}
+.side-img span{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace, Times, serif;
+    color: gold;
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 0px 20px 30px 20px;
+}
+.question{
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.answer{
+    color: darkgray;
+    font-size: x-small;
+    margin-left: 20px;
+}
+.line{
+    color: white;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
